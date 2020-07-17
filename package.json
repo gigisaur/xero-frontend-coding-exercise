@@ -1,0 +1,23 @@
+{
+  "name": "xero-frontend-developer-exercise",
+  "version": "0.1.0",
+  "main": "index.js",
+  "scripts": {
+    "start": "concurrently --kill-others \"npm run start:server\" \"npm run start:ui\"",
+    "start:server": "cd ./server && npm start",
+    "start:ui": "cd ./ui && npm start",
+    "restore": "npm i && npm run restore:ui && npm run restore:server",
+    "restore:server": "cd ./server && npm i",
+    "restore:ui": "cd ./ui && npm i"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/gigisaur/xero-frontend-coding-exercise"
+  },
+  "author": "Kiya Doig",
+  "license": "ISC",
+  "dependencies": {
+    "concurrently": "^5.1.0",
+    "css-loader": "^3.5.3"
+  }
+}

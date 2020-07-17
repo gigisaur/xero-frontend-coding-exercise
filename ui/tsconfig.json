@@ -1,0 +1,29 @@
+{
+    "include": ["src", "__tests__", "types"],
+    "compilerOptions": {
+        "target": "es5",
+        "lib": ["dom", "esnext"],
+        "allowJs": true,
+        "importHelpers": true,
+        "skipLibCheck": true,
+        "esModuleInterop": true,
+        "allowSyntheticDefaultImports": true,
+        "strict": false,
+        "forceConsistentCasingInFileNames": true,
+        "module": "esnext",
+        "moduleResolution": "node",
+        "resolveJsonModule": true,
+        "isolatedModules": true,
+        "noUnusedLocals": false,
+        "noUnusedParameters": false,
+        "jsx": "react",
+        "rootDir": "./src",
+        "baseUrl": "./",
+        "paths": {
+            "@": ["./"],
+            "*": ["src/*", "node_modules/*"]
+        },
+        "sourceMap": true,
+        "typeRoots": ["node_modules/@types"]
+    },
+}

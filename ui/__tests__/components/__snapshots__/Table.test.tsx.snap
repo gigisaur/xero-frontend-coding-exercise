@@ -1,0 +1,81 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`When rendered then the HTML matches this snapshot 1`] = `
+.c0 {
+  border-collapse: collapse;
+  width: 100%;
+  border: 1px solid #EBF6FF;
+}
+
+.c3 {
+  padding: 0.5rem;
+  color: #191919;
+  font-size: 0.9rem;
+  border-bottom: 1px solid #EBF6FF;
+}
+
+.c1 {
+  padding: 0.5rem;
+  border-bottom: 1px solid #DAE5EC;
+  color: #191919;
+  opacity: 0.75;
+  font-size: 0.8rem;
+  text-transform: uppercase;
+  text-align: left;
+}
+
+.c2:nth-child(odd) {
+  background-color: #EBF6FF;
+}
+
+<div>
+  <table
+    class="c0"
+  >
+    <thead>
+      <tr>
+        <th
+          class="c1"
+        >
+          Header 1
+        </th>
+        <th
+          class="c1"
+        >
+          Header 2
+        </th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr
+        class="c2"
+      >
+        <td
+          class="c3"
+        >
+          Row 1 Cell 1
+        </td>
+        <td
+          class="c3"
+        >
+          Row 1 Cell 2
+        </td>
+      </tr>
+      <tr
+        class="c2"
+      >
+        <td
+          class="c3"
+        >
+          Row 2 Cell 1
+        </td>
+        <td
+          class="c3"
+        >
+          Row 2 Cell 2
+        </td>
+      </tr>
+    </tbody>
+  </table>
+</div>
+`;
