@@ -42,6 +42,7 @@ Tell us what you'd do next if you had more time, and what else you might do to t
 - Need to be able to remove items or allow for inline edits in case a mistake is made, a clear button might be nice.
 - Currency localisation. I have just hardcoded a $ symbol, however the currency would need to be localised.
 - Manage loading and error states in the UI when sending to the real server.
+- Truncate or wrap very long item descriptions in the table (currently it breaks the layout).
 - I would improve the mobile experience and do more testing around devices and resolution.
 - I would put more thought in to the flow from submitting an invoice (to possibly loading), to confirmation, to submitting another invoice.
     - For example if the primary use case and user priority is to submit a lot of invoices quickly then something like the implemented toast notification system may be sufficient. Otherwise, you could provide a confirmation view with the submitted invoice and an option to print, for example.
